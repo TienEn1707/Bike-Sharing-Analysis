@@ -1,6 +1,6 @@
 # Bike Sharing Dashboard 🌟
 
-# Instruksi untuk menjalankan dashboard.py
+## Instruksi untuk menjalankan dashboard.py
 
 ## Setup Environment - Anaconda
 ```

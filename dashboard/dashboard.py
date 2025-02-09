@@ -44,6 +44,7 @@ sns.scatterplot(x='mnth', y='cnt', hue='season_label', data=monthly_avg, palette
 ax.set_title('Tren Penyewaan Sepeda per Bulan Berdasarkan Musim')
 ax.set_xlabel('Bulan')
 ax.set_ylabel('Rata-rata Jumlah Penyewaan')
+ax.set_ylim(0)
 ax.set_xticks(ticks=range(1, 13))
 ax.set_xticklabels(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
                     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
@@ -101,6 +102,7 @@ sns.scatterplot(x='mnth', y='cnt', hue='season_label', data=monthly_avg, palette
 ax.set_title('Tren Penyewaan Sepeda per Bulan Berdasarkan Musim')
 ax.set_xlabel('Bulan')
 ax.set_ylabel('Rata-rata Jumlah Penyewaan')
+ax.set_ylim(0)
 ax.set_xticks(ticks=range(1, 13))
 ax.set_xticklabels(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
                     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
